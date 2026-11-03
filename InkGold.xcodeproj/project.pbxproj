@@ -1,0 +1,257 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DE8899666F8645F6930B4F1 /* InkGoldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D6216029AA649E28F66F74 /* InkGoldApp.swift */; };
+		3171F1F0465439AFD110FAE7 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A183E70F263933E436C0089D /* ProfileView.swift */; };
+		43C08FE01D82F5A1F4275BFD /* ChatPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A935E9024E6A1BE1F3A6C /* ChatPanel.swift */; };
+		44658AA41A4FB61BF2076DA6 /* RiftCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29D780168498465BFFAE456 /* RiftCanvasView.swift */; };
+		46E3AB64E8203456480C6E72 /* CardProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA48D0A0745231FDD7A3743D /* CardProfile.swift */; };
+		8460AC0CB66E6AB4D06A045E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814DDB6A93D8295A8988B80A /* HomeView.swift */; };
+		85229D37F2AFA5A6F6F91261 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1882DE18D3BE9862E81E4DB /* DetailView.swift */; };
+		8EAABB0728D57FA7C6C6CE00 /* FlowMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CD7217CAAE5E212AB38C53 /* FlowMachine.swift */; };
+		9B1F55467EFFD46686D93952 /* ExchangeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE2974D29F9A310CEB08582 /* ExchangeViews.swift */; };
+		A512702F63485310A9D44942 /* GeometryKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FF8413D4EC4910B0F5771C /* GeometryKit.swift */; };
+		B0E76125957960B5B9FD35C2 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13B65B344DCA1D5652163BCA /* DesignTokens.swift */; };
+		D261A0B1CD882A7D46B303A6 /* DeckDrawerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4A322E8E12A42C81961B89 /* DeckDrawerView.swift */; };
+		D36239F2140BAB3BBA422D97 /* PowderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F8BE2AD1F920137375E155 /* PowderTextView.swift */; };
+		E21F8739A01A9253CB47FE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 570848F6A224D6A0C6E6942C /* Assets.xcassets */; };
+		FA2CAE1275B1FE6648250702 /* TextureRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51BC5DF9C735B5E1667E042 /* TextureRenderer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13B65B344DCA1D5652163BCA /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		142381BCEB10E2C15804DF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2D5A935E9024E6A1BE1F3A6C /* ChatPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPanel.swift; sourceTree = "<group>"; };
+		570848F6A224D6A0C6E6942C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A37BF18D0E47233A51DFA01 /* InkGold.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = InkGold.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		814DDB6A93D8295A8988B80A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A0F8BE2AD1F920137375E155 /* PowderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowderTextView.swift; sourceTree = "<group>"; };
+		A183E70F263933E436C0089D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B1882DE18D3BE9862E81E4DB /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		B7D6216029AA649E28F66F74 /* InkGoldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InkGoldApp.swift; sourceTree = "<group>"; };
+		BA48D0A0745231FDD7A3743D /* CardProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProfile.swift; sourceTree = "<group>"; };
+		CCE2974D29F9A310CEB08582 /* ExchangeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeViews.swift; sourceTree = "<group>"; };
+		D51BC5DF9C735B5E1667E042 /* TextureRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureRenderer.swift; sourceTree = "<group>"; };
+		F29D780168498465BFFAE456 /* RiftCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiftCanvasView.swift; sourceTree = "<group>"; };
+		F6CD7217CAAE5E212AB38C53 /* FlowMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowMachine.swift; sourceTree = "<group>"; };
+		F7FF8413D4EC4910B0F5771C /* GeometryKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryKit.swift; sourceTree = "<group>"; };
+		FB4A322E8E12A42C81961B89 /* DeckDrawerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckDrawerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		588465182D4441A98623B70D /* InkGold */ = {
+			isa = PBXGroup;
+			children = (
+				570848F6A224D6A0C6E6942C /* Assets.xcassets */,
+				BA48D0A0745231FDD7A3743D /* CardProfile.swift */,
+				13B65B344DCA1D5652163BCA /* DesignTokens.swift */,
+				F6CD7217CAAE5E212AB38C53 /* FlowMachine.swift */,
+				F7FF8413D4EC4910B0F5771C /* GeometryKit.swift */,
+				142381BCEB10E2C15804DF2A /* Info.plist */,
+				B7D6216029AA649E28F66F74 /* InkGoldApp.swift */,
+				D51BC5DF9C735B5E1667E042 /* TextureRenderer.swift */,
+				E09B2B37D3881D9320500A2D /* Views */,
+			);
+			path = InkGold;
+			sourceTree = "<group>";
+		};
+		6794D59CD35E8C63BDEDBA39 = {
+			isa = PBXGroup;
+			children = (
+				588465182D4441A98623B70D /* InkGold */,
+				C462D047409745EEFC84072C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C462D047409745EEFC84072C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A37BF18D0E47233A51DFA01 /* InkGold.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E09B2B37D3881D9320500A2D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D5A935E9024E6A1BE1F3A6C /* ChatPanel.swift */,
+				FB4A322E8E12A42C81961B89 /* DeckDrawerView.swift */,
+				B1882DE18D3BE9862E81E4DB /* DetailView.swift */,
+				CCE2974D29F9A310CEB08582 /* ExchangeViews.swift */,
+				814DDB6A93D8295A8988B80A /* HomeView.swift */,
+				A0F8BE2AD1F920137375E155 /* PowderTextView.swift */,
+				A183E70F263933E436C0089D /* ProfileView.swift */,
+				F29D780168498465BFFAE456 /* RiftCanvasView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90600C1BD896EE22624B976B /* InkGold */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4A0943C55C888AB8A84C83E /* Build configuration list for PBXNativeTarget "InkGold" */;
+			buildPhases = (
+				99B262ED37B11BF7D0C4996A /* Sources */,
+				6919C81C23411453559DEF85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InkGold;
+			packageProductDependencies = (
+			);
+			productName = InkGold;
+			productReference = 5A37BF18D0E47233A51DFA01 /* InkGold.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4944FDD88CF3EC30C9BA5BCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					90600C1BD896EE22624B976B = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1DF28D804F16F2A02E5C664E /* Build configuration list for PBXProject "InkGold" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6794D59CD35E8C63BDEDBA39;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C462D047409745EEFC84072C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90600C1BD896EE22624B976B /* InkGold */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6919C81C23411453559DEF85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21F8739A01A9253CB47FE4B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99B262ED37B11BF7D0C4996A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E3AB64E8203456480C6E72 /* CardProfile.swift in Sources */,
+				43C08FE01D82F5A1F4275BFD /* ChatPanel.swift in Sources */,
+				D261A0B1CD882A7D46B303A6 /* DeckDrawerView.swift in Sources */,
+				B0E76125957960B5B9FD35C2 /* DesignTokens.swift in Sources */,
+				85229D37F2AFA5A6F6F91261 /* DetailView.swift in Sources */,
+				9B1F55467EFFD46686D93952 /* ExchangeViews.swift in Sources */,
+				8EAABB0728D57FA7C6C6CE00 /* FlowMachine.swift in Sources */,
+				A512702F63485310A9D44942 /* GeometryKit.swift in Sources */,
+				8460AC0CB66E6AB4D06A045E /* HomeView.swift in Sources */,
+				1DE8899666F8645F6930B4F1 /* InkGoldApp.swift in Sources */,
+				D36239F2140BAB3BBA422D97 /* PowderTextView.swift in Sources */,
+				3171F1F0465439AFD110FAE7 /* ProfileView.swift in Sources */,
+				44658AA41A4FB61BF2076DA6 /* RiftCanvasView.swift in Sources */,
+				FA2CAE1275B1FE6648250702 /* TextureRenderer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		10EECE41F8F238002ED2B8E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		26D6A2A0ECEDD279E1A7FAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InkGold/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = app.inkgold.InkGold;
+			};
+			name = Release;
+		};
+		646F3C8E274E5AD849AADFC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		74136B37E9B38BE7453C110D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InkGold/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = app.inkgold.InkGold;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DF28D804F16F2A02E5C664E /* Build configuration list for PBXProject "InkGold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				646F3C8E274E5AD849AADFC4 /* Debug */,
+				10EECE41F8F238002ED2B8E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C4A0943C55C888AB8A84C83E /* Build configuration list for PBXNativeTarget "InkGold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74136B37E9B38BE7453C110D /* Debug */,
+				26D6A2A0ECEDD279E1A7FAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4944FDD88CF3EC30C9BA5BCE /* Project object */;
+}
